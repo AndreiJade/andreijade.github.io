@@ -59,7 +59,15 @@ body{
       animation: glow 1s ease-in-out infinite alternate;
     }
     
-
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #778899, 0 0 40px #778899, 0 0 50px #778899, 0 0 60px #778899, 0 0 70px #778899;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #C0C0C0, 0 0 40px #C0C0C0, 0 0 50px #C0C0C0, 0 0 60px #C0C0C0, 0 0 70px #C0C0C0, 0 0 80px #C0C0C0;
+      }
+    }
     
     .glow1 {
       font-size: 100px;
@@ -69,6 +77,11 @@ body{
       -moz-animation: glow 1s ease-in-out infinite alternate;
       animation: glow 1s ease-in-out infinite alternate;
     }
-  
-
-
+    
+    @-webkit-keyframes glow1 {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #778899, 0 0 40px #778899, 0 0 50px #778899, 0 0 60px #778899, 0 0 70px #778899;
+      }
+      
+    }
+    
